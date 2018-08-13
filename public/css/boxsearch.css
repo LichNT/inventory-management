@@ -1,0 +1,35 @@
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+}
+
+.dropdown-menu {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    border-radius: 0px;
+}
+
+.input-group-btn .btn-group {
+    display: flex !important;
+}
+
+@media screen and (min-width: 768px) {
+    #adv-search {
+        display: inline-flex;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .dropdown.dropdown-lg {
+        position: static !important;
+    }
+    .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 100%;
+    }
+}
+
+.box-search {
+    position: relative;
+}
+
+.box-search form {
+    width: 100%;
+    position: absolute;
+}

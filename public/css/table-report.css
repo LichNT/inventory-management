@@ -1,0 +1,6 @@
+table.table-bordered.dataTable tbody th, table.table-bordered.dataTable tbody td {
+    border-bottom-width: 1px;
+  }
+.table-report>thead>tr>th, .table-report>tbody>tr>th, .table-report>tfoot>tr>th, .table-report>thead>tr>td, .table-report>tbody>tr>td, .table-report>tfoot>tr>td {
+border-bottom: 1px solid #d6d1c0;
+}
